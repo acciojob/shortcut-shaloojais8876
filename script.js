@@ -1,5 +1,11 @@
 function shortcut(s1, s2) {
   // your code here
+	let a=s1.length;
+	let b=s2.length;
+	if(a==0||b==0){
+		return "";
+	}
+	return s1[0]+s2[0];
 }
 
 // Do not change the code below.
